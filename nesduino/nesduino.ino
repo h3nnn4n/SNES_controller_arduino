@@ -4,7 +4,7 @@ int data    = 7;
 int buttons = 0;
 
 void setup() {
-    Serial.begin(9600);
+    Serial.begin(115200);
     pinMode(strobe, OUTPUT);
     pinMode(clock, OUTPUT);
     pinMode(data,  INPUT);

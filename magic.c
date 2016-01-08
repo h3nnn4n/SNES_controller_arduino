@@ -6,20 +6,20 @@
 #include <X11/keysym.h>
 #include <X11/extensions/XTest.h>
 
-#define DOWN   XK_s
-#define UP     XK_w
-#define LEFT   XK_a
-#define RIGHT  XK_d
+#define DOWN   XK_Down
+#define UP     XK_Up
+#define LEFT   XK_Left
+#define RIGHT  XK_Right
 
 #define Y      XK_t
 #define X      XK_r
-#define A      XK_f
+#define A      XK_space
 #define B      XK_g
 
-#define L      XK_q
-#define R      XK_e
+#define L      XK_Shift_L
+#define R      XK_q
 
-#define START  XK_x
+#define START  XK_Escape
 #define SELECT XK_z
 
 int main(){
